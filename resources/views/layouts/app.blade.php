@@ -896,7 +896,7 @@
 <!-- jQuery -->
 <script src="{{ asset('js/app.js') }}"></script>
 <script>
-myFun('shahin bhai')
+setSwalMessage('shahin bhai')
 </script>
 </body>
 </html>

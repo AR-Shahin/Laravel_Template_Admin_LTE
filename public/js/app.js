@@ -1922,6 +1922,10 @@ window.myFun = function (params) {
   Swal.fire(params);
 };
 
+window.setSwalMessage = function (params) {
+  Swal.fire(params, 'That thing is still around?', 'question');
+};
+
 /***/ }),
 
 /***/ "./node_modules/bootstrap/dist/js/bootstrap.js":
