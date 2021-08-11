@@ -10,12 +10,7 @@ try {
     window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
 
-    const Swal = window.Swal = require('sweetalert2');
     require('bootstrap');
-    require('admin-lte');
-    function myFun(e){
-    Swal.fire(e)
-}
 } catch (e) {}
 
 /**
